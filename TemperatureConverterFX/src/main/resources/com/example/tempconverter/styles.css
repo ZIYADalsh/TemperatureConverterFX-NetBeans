@@ -1,0 +1,69 @@
+
+.root {
+    -fx-background-color: linear-gradient(to bottom, #0f172a, #111827);
+    -fx-font-family: "Segoe UI", "Tahoma", "Arial";
+    -fx-text-fill: #e5e7eb;
+}
+.banner {
+    -fx-background-color: linear-gradient(to right, #06b6d4, #3b82f6, #8b5cf6);
+    -fx-padding: 18 20 18 20;
+    -fx-alignment: CENTER_LEFT;
+}
+.banner .title {
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-text-fill: white;
+}
+.card {
+    -fx-background-color: #111827;
+    -fx-background-radius: 18;
+    -fx-padding: 22;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.35), 18, 0.25, 0, 6);
+    -fx-border-color: rgba(255,255,255,0.08);
+    -fx-border-radius: 18;
+}
+.label {
+    -fx-text-fill: #e5e7eb;
+    -fx-font-size: 13px;
+}
+.text-field, .combo-box-base {
+    -fx-background-radius: 10;
+    -fx-padding: 8 10 8 10;
+    -fx-background-color: #0b1220, #0b1220, #0b1220;
+    -fx-text-fill: #e5e7eb;
+    -fx-border-color: rgba(255,255,255,0.08);
+    -fx-border-radius: 10;
+}
+.text-field:focused, .combo-box-base:focused {
+    -fx-effect: dropshadow(gaussian, rgba(59,130,246,0.6), 12, 0.25, 0, 0);
+    -fx-border-color: #3b82f6;
+}
+.button {
+    -fx-background-color: linear-gradient(to right, #22c55e, #16a34a);
+    -fx-text-fill: white;
+    -fx-font-weight: 600;
+    -fx-background-radius: 12;
+    -fx-padding: 10 16 10 16;
+}
+.button:hover {
+    -fx-background-color: linear-gradient(to right, #34d399, #22c55e);
+}
+.result {
+    -fx-font-size: 16px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #a7f3d0;
+}
+.footer {
+    -fx-text-fill: rgba(255,255,255,0.6);
+    -fx-padding: 10;
+}
+
+
+/* Wider preferred widths for horizontal layout */
+.text-field, .combo-box-base {
+    -fx-min-width: 200px;
+    -fx-pref-width: 220px;
+}
+.button {
+    -fx-min-width: 120px;
+}

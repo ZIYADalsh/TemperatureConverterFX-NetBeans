@@ -1,0 +1,10 @@
+# Java / Maven
+**/target/
+**/bin/
+**/.classpath
+**/.project
+**/.settings/
+**/.idea/
+**/.vscode/
+*.class
+*.log
